@@ -14,9 +14,11 @@ public class Aula25_grafos {
         grafo.adicionarAresta(3.0, "Lorenzo", "Créber");
         grafo.adicionarAresta(1.0, "Créber", "Creuza");
         grafo.adicionarAresta(1.0, "João", "Creuza");
-        grafo.adicionarAresta(2.0, "Cráudio", "Lorenzo");
         grafo.adicionarAresta(3.0, "Cráudio", "João");
+        grafo.adicionarAresta(2.0, "Cráudio", "Lorenzo");
         
+        
+        grafo.buscaEmLargura();
     }
     
 }
